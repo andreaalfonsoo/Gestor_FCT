@@ -1,0 +1,7 @@
+gestor_homepage:
+    path:     /
+    defaults: { _controller: GestorBundle:Default:index }
+
+all_Empresa:
+    path:     /Empresa/all
+    defaults: { _controller: GestorBundle:Empresa:all }
