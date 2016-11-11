@@ -63,6 +63,10 @@ class Empresa
      */
     private $fechaCreacionEmpresa;
 
+    /**
+     * @ORM\OneToMany(targetEntity="Alumno", mappedBy="empresa")
+     */
+    private $alumno;
 
     /**
      * Get id
@@ -218,4 +222,3 @@ class Empresa
         return $this->fechaCreacionEmpresa;
     }
 }
-
