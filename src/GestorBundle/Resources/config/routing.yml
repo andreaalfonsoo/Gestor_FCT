@@ -13,3 +13,8 @@ new_Empresa:
 all_Alumno:
     path:     /Alumno/all
     defaults: { _controller: GestorBundle:Alumno:all }
+
+empresa_get:
+    path: /Empresa/GET
+    defaults: { _controller: GestorBundle:API:getEmpresas }
+    methods: [GET]
